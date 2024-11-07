@@ -14,7 +14,7 @@ app.use("/api",router)
 
 
 //Database connection
-let URI = `mongodb+srv://drmizanurrahman452:mizan1234@cluster0.5vetql5.mongodb.net/demo?retryWrites=true&w=majority&appName=Cluster0`
+let URI = `mongodb://127.0.0.1:27017/demo`
 let OPTION = { user: "", pass: "", autoIndex: true }
 mongoose
     .connect(URI, OPTION)
